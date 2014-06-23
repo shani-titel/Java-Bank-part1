@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<banksSystem>
+	<atms>
+		<atm id="1" location="Ben Yehuda 142, Tel Aviv"/>
+	</atms>
+	<bankers>
+		<banker id="1" />
+	</bankers>
+	<customers>
+		<customer name="momo">
+			<account type="Student" balance="100"/>
+		</customer>
+		<customer name="gogo">
+			<account type="Student" balance="300"/>
+		</customer>
+		<customer name="yoyo">
+			<account type="Soldier" balance="200"/>
+		</customer>
+		<customer name="koko">
+			<account type="Business" balance="10000"/>
+		</customer>
+		<customer name="atmCust1">
+			<account type="Student" balance="300"/>
+		</customer>
+		<customer name="atmCust2">
+			<account type="Soldier" balance="400"/>
+		</customer>
+		<customer name="atmCust3">
+			<account type="Business" balance="1000"/>
+		</customer>
+	</customers>
+</banksSystem>
